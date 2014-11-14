@@ -19,8 +19,9 @@ Then visit [localhost:3000](http://localhost:3000/)
 ### What does it do?
 
 Just shows you the current xkcd comic that's it.<br />
-Might add other features in the future.
-
+Might add other features in the future.<br />
+Screenshot:
+![](http://i.imgur.com/Attdi8z.png)
 #### Licence
 ```
        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
