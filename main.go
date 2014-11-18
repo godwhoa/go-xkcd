@@ -7,9 +7,6 @@ import (
 )
 
 func main() {
-	//Get the comic data
-	comic, err := xkcd.GetCurrent()
-	perror(err)
 
 	m := martini.Classic()
 	//Includes static files(css,img,js etc.)
@@ -17,6 +14,9 @@ func main() {
 	//Renderes the templates
 	m.Use(render.Renderer())
 	m.Get("/", func(r render.Render) {
+		//Get the comic data
+		comic, err := xkcd.GetCurrent()
+		perror(err)
 		r.HTML(200, "index", comic)
 	})
 	m.Run()
@@ -28,4 +28,3 @@ func perror(err error) {
 		panic(err)
 	}
 }
-
