@@ -1,4 +1,5 @@
 ## A simple go martini project
+[![Build Status](https://drone.io/github.com/godwhoa/go-xkcd/status.png)](https://drone.io/github.com/godwhoa/go-xkcd/latest)
 ### Installation
 [Install Go](https://golang.org/doc/install)
 
