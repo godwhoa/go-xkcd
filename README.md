@@ -1,3 +1,5 @@
+### UPDATE: Made a more idiomatic implementaion [xkcd-go-new](https://github.com/godwhoa/xkcd-go-new)
+
 ## A simple go martini project
 [![Build Status](https://drone.io/github.com/godwhoa/go-xkcd/status.png)](https://drone.io/github.com/godwhoa/go-xkcd/latest)
 ### Installation
